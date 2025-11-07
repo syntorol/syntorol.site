@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Star, CheckCircle, Zap } from "lucide-react";
+import { Star, CheckCircle, Zap, Trophy } from "lucide-react";
 import joaoImage from "@/assets/joao-testimonial.jpg";
 import anaImage from "@/assets/ana-testimonial.jpg";
 
@@ -72,7 +72,9 @@ const TestimonialsSection = () => {
           {/* Trust Signals */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-3xl mb-2">🏆</div>
+              <div className="flex justify-center mb-2">
+                <Trophy className="w-8 h-8 text-primary" />
+              </div>
               <div className="font-bold text-lg">Qualidade Premium</div>
               <div className="text-muted-foreground">Sites de nível profissional</div>
             </div>
