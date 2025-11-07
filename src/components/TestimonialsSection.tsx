@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Star } from "lucide-react";
+import { Star, CheckCircle } from "lucide-react";
 import joaoImage from "@/assets/joao-testimonial.jpg";
 import anaImage from "@/assets/ana-testimonial.jpg";
 
@@ -82,7 +82,9 @@ const TestimonialsSection = () => {
               <div className="text-muted-foreground">Máximo 72 horas</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl mb-2">✅</div>
+              <div className="flex justify-center mb-2">
+                <CheckCircle className="w-8 h-8 text-primary" />
+              </div>
               <div className="font-bold text-lg">Garantia Total</div>
               <div className="text-muted-foreground">Ou seu dinheiro de volta</div>
             </div>
