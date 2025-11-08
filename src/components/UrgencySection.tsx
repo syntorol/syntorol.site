@@ -51,7 +51,7 @@ const UrgencySection = () => {
             <CardContent className="p-8 bg-gradient-to-r from-warning/5 to-destructive/5">
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-6 text-foreground">
-                  ⏰ Tempo restante para garantir seu site por R$68,79:
+                  ◷ Tempo restante para garantir seu site por R$68,79:
                 </h3>
                 <div className="grid grid-cols-3 gap-4 max-w-md mx-auto mb-6">
                   <div className="bg-card rounded-lg p-4 shadow-lg">
