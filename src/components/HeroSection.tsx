@@ -61,7 +61,7 @@ const HeroSection = () => {
             </Button>
             
             <p className="text-sm text-white/70">
-              ✅ Checkout 100% seguro via Cakto • Garantia ou seu dinheiro de volta
+              ✓ Checkout 100% seguro via Cakto • Garantia ou seu dinheiro de volta
             </p>
           </div>
 
