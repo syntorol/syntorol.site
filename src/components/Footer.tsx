@@ -13,9 +13,7 @@ const Footer = () => {
             🎯 Comprar meu site por R$68,79 agora
           </Button>
           
-          <div className="text-sm text-white/70 mb-8">
-            ✅ Entrega garantida em 72h • ✅ Ou seu dinheiro de volta • ✅ Suporte incluído
-          </div>
+          <div className="text-sm text-white/70 mb-8">✅ Entrega garantida em 72h • Ou seu dinheiro de volta •  Suporte incluído</div>
 
           {/* Divider */}
           <div className="border-t border-white/20 pt-8">
