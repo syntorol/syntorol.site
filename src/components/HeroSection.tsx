@@ -68,7 +68,7 @@ const HeroSection = () => {
           {/* Urgency */}
           <div className="mt-8 p-4 bg-warning/20 backdrop-blur-sm rounded-lg border border-warning/30 max-w-md mx-auto">
             <p className="text-sm font-semibold text-yellow-300">
-              ⚡ Vagas limitadas por dia! Pode sair do ar a qualquer momento.
+              ⚠ Vagas limitadas por dia! Pode sair do ar a qualquer momento.
             </p>
           </div>
         </div>
