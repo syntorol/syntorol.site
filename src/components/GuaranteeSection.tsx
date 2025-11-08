@@ -133,7 +133,7 @@ const GuaranteeSection = () => {
               size="xl"
               onClick={() => window.open('https://pay.cakto.com.br/3c3nu5i_390837', '_blank')}
             >
-              🛡️ Comprar com garantia total
+              ◈ Comprar com garantia total
             </Button>
             <p className="text-sm mt-4 text-muted-foreground">
               Proteção total • Reembolso garantido • Suporte incluso
