@@ -132,7 +132,7 @@ const UrgencySection = () => {
 
           {/* Final CTA */}
           <div className="text-center bg-gradient-to-r from-primary to-accent rounded-2xl p-8 text-white shadow-2xl">
-            <h3 className="text-3xl font-bold mb-4">🚨 Última chance de garantir por R$68,79</h3>
+            <h3 className="text-3xl font-bold mb-4">▲ Última chance de garantir por R$68,79</h3>
             <p className="text-xl mb-6 text-white/90">
               Não deixe para depois. Esta oportunidade pode não voltar.
             </p>
