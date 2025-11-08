@@ -145,7 +145,7 @@ const UrgencySection = () => {
               🎯 GARANTIR AGORA POR R$68,79
             </Button>
             <p className="text-sm mt-4 text-white/70">
-              ✅ Processamento instantâneo • Entrega garantida em 72h
+              ✓ Processamento instantâneo • Entrega garantida em 72h
             </p>
           </div>
         </div>
