@@ -31,7 +31,8 @@ const HeroSection = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">Você pode paga R$10.000 por um site… ou só R$68,79 aqui. Uma página profissional, rápida, linda e feita para converter — por menos que um Lanche.<span className="font-bold text-yellow-300">R$10.000</span> por um site… 
+          <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
+            Você pode paga <span className="font-bold text-yellow-300">R$10.000</span> por um site… 
             ou só <span className="font-bold text-yellow-300">R$68,79</span> aqui. 
             Uma página profissional, rápida, linda e feita para converter — 
             <span className="font-bold"> por menos que um Lanche.</span>
