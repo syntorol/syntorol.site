@@ -93,6 +93,14 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'shrink': {
+					from: {
+						width: '100%'
+					},
+					to: {
+						width: '0%'
+					}
 				}
 			},
 			animation: {

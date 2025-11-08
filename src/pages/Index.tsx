@@ -6,6 +6,7 @@ import WhySection from "@/components/WhySection";
 import UrgencySection from "@/components/UrgencySection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import Footer from "@/components/Footer";
+import PurchaseNotifications from "@/components/PurchaseNotifications";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <UrgencySection />
       <GuaranteeSection />
       <Footer />
+      <PurchaseNotifications />
     </div>
   );
 };
