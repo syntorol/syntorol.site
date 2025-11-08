@@ -1,21 +1,17 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, CheckCircle, Zap, Trophy } from "lucide-react";
-import joaoImage from "@/assets/joao-testimonial.jpg";
-import anaImage from "@/assets/ana-testimonial.jpg";
 
 const TestimonialsSection = () => {
   const testimonials = [
     {
       name: "João Silva",
       role: "Consultor de Marketing",
-      image: joaoImage,
       content: "Nunca pensei que um site de R$68,79 pudesse parecer tão profissional! Recebi em menos de 72h e já estou convertendo clientes.",
       rating: 5
     },
     {
       name: "Ana Costa",
       role: "Designer Freelance",
-      image: anaImage,
       content: "Incrível! O design ficou moderno e responsivo. Economizei milhares e o resultado superou minhas expectativas.",
       rating: 5
     }
@@ -54,11 +50,6 @@ const TestimonialsSection = () => {
 
                   {/* Author */}
                   <div className="flex items-center gap-4">
-                    <img 
-                      src={testimonial.image} 
-                      alt={testimonial.name}
-                      className="w-16 h-16 rounded-full object-cover border-2 border-primary/20"
-                    />
                     <div>
                       <div className="font-bold text-foreground">{testimonial.name}</div>
                       <div className="text-muted-foreground">{testimonial.role}</div>
