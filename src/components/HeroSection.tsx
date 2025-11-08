@@ -57,7 +57,7 @@ const HeroSection = () => {
           {/* CTA Button */}
           <div className="space-y-4">
             <Button variant="hero" size="xl" className="text-xl px-12 py-6 shadow-2xl hover:shadow-yellow-300/25" onClick={() => window.open('https://pay.cakto.com.br/3c3nu5i_390837', '_blank')}>
-              🎯 Quero meu site agora por R$68,79
+              → Quero meu site agora por R$68,79
             </Button>
             
             <p className="text-sm text-white/70">
